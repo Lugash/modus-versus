@@ -1,0 +1,73 @@
+/* Modus Versus Slicing
+ *
+ * /sass/objects/_why.scss - Non-cosmetic styles for why
+ *
+ * coded by Lugash
+ * started at 16/02/2016
+ */
+
+ .why {
+
+     // HEADING
+     &__heading {
+         strong {
+             display: block;
+         }
+         span {
+
+         }
+     }
+
+     // FIGURE
+     &__figure {
+
+     }
+     &__img {
+        display: block;
+     }
+
+     // COLS
+     &__cols {
+
+         .why-col {
+             &__heaging {
+
+             }
+             &__paragraph {
+
+             }
+         }
+     }
+
+     // CLIENTS
+     .clients {
+
+         &__heading {
+
+         }
+
+         &__nav {
+
+         }
+         &__client-previous {
+
+         }
+         &__client-next {
+
+         }
+
+         &__list {
+
+         }
+         &__elt {
+
+         }
+         &__link {
+
+         }
+         &__img {
+
+         }
+     }
+
+ }

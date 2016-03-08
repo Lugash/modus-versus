@@ -1,0 +1,118 @@
+/* Modus Versus Slicing
+ *
+ * /sass/components/_services.scss - design for services
+ *
+ * coded by Lugash
+ * started at 16/02/2016
+ */
+
+.services {
+    padding: 1em 10%;
+    &__focus {
+        margin: 1em auto;
+        padding: 2em;
+        background-color: $darkenBackgroundColor;
+        border-radius: .4rem;
+    }
+    &__heading {
+        font: bold 2.5rem $openSansStack;
+    }
+    &__paragraph {
+        font-size: $paragraphFontSize;
+    }
+    &__callout {
+        padding: 1.4rem 2rem;
+        border-radius: .4rem;
+        font: normal 1.6rem/1 $openSansStack;
+        color: $menuTextColor;
+        text-align: center;
+        text-transform: uppercase;
+        background: $focusColor;
+        &:hover {
+            background: $focusColor;
+            box-shadow: 0 .3rem 0 $darkFocusColor;
+        }
+    }
+
+    &__list {
+        margin: 4em auto;
+    }
+    &__elt {
+        margin-left: 3.7%;
+        padding: 2em;
+        padding-top: 5em;
+        font: normal 1.6rem/1 $openSansStack;
+        color: $menuTextColor;
+        text-align: center;
+        background: $lightenBackgroundColor;
+        &:hover {
+            background: $menuTextColor;
+            box-shadow: 0 .3rem 0 $shadow;
+        }
+        &:first-child {
+            margin-left: 0;
+        }
+    }
+    &__link {
+        color: $laborTextColor
+    }
+    &__heading-icon-thumb {
+        text-transform: uppercase;
+        margin-bottom: 3em;
+        font-weight: bold;
+        &::before {
+            content: " \f0259";
+            top: -50px;
+            left: 80px;
+            font: $glyphs;
+        }
+    }
+    &__heading-icon-key {
+        text-transform: uppercase;
+        margin-bottom: 3em;
+        font-weight: bold;
+        &::before {
+            content: " \f0259";
+            top: -50px;
+            left: 80px;
+            font: $glyphs;
+        }
+    }
+    &__heading-icon-flag {
+        text-transform: uppercase;
+        margin-bottom: 3em;
+        font-weight: bold;
+        &::before {
+            content: " \f0259";
+            top: -50px;
+            left: 80px;
+            font: $glyphs;
+        }
+    }
+    &__heading-icon-flask {
+        text-transform: uppercase;
+        margin-bottom: 3em;
+        font-weight: bold;
+        &::before {
+            content: " \f0259";
+            top: -50px;
+            left: 80px;
+            font: $glyphs;
+        }
+    }
+
+    &__fake-button {
+        padding: 1.4rem 2rem;
+        border-radius: .4rem;
+        margin-top: 10em;
+        font: 600 1.4rem/1 $openSansStack;
+        background: $lightMainColor;
+        color: $menuTextColor;
+        text-decoration: none;
+        text-align: center;
+        &:hover {
+            background: $focusColor;
+            box-shadow: 0 .3rem 0 $darkFocusColor;
+        }
+    }
+}

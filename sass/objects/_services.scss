@@ -1,0 +1,65 @@
+/* Modus Versus Slicing
+ *
+ * /sass/objects/_services.scss - Non-cosmetic styles for services
+ *
+ * coded by Lugash
+ * started at 16/02/2016
+ */
+
+ .services {
+     &__focus {
+        position: relative;
+     }
+     &__heading {
+
+     }
+     &__paragraph {
+
+     }
+     &__callout {
+        display: block;
+        position: absolute;
+        top: 1.5em;
+        right: 5em;
+     }
+
+     &__list {
+
+     }
+     &__elt {
+        display: inline-block;
+        width: 22%;
+        height: 20em;
+     }
+     &__link {
+
+     }
+     &__heading-icon-thumb {
+        position: relative;
+        &::before {
+            position: absolute;
+        }
+     }
+     &__heading-icon-key {
+         position: relative;
+         &::before {
+             position: absolute;
+         }
+     }
+     &__heading-icon-flag {
+         position: relative;
+         &::before {
+             position: absolute;
+         }
+     }
+     &__heading-icon-flask {
+         position: relative;
+         &::before {
+             position: absolute;
+         }
+     }
+
+     &__fake-button {
+        display: block;
+     }
+ }

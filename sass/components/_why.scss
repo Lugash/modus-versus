@@ -1,0 +1,87 @@
+/* Modus Versus Slicing
+ *
+ * /sass/components/_why.scss - design for why
+ *
+ * coded by Lugash
+ * started at 16/02/2016
+ */
+
+.why {
+    padding: 4em 0;
+
+    // HEADING
+    &__heading {
+        text-align: center;
+        padding: 5em 0 40em;
+        background: $darkenBackgroundColor;
+        strong {
+            font-size: 5em;
+            color: $focusColor;
+            text-transform: uppercase;
+            margin-bottom: 1rem;
+        }
+        span {
+            font-size: $paragraphFontSize;
+        }
+    }
+
+    // FIGURE
+    &__figure {
+
+    }
+    &__img {
+        margin: 0 auto;
+        width: 80%;
+
+        transform: translateY(-30em);
+    }
+
+    // COLS
+    &__cols {
+        padding: 5em 10%;
+        .why-col {
+            &__heaging {
+
+            }
+            &__paragraph {
+
+            }
+        }
+    }
+
+    // CLIENTS
+    .clients {
+        padding: 5em 10%;
+        &__heading {
+
+        }
+
+        &__nav {
+
+        }
+        &__client-previous {
+
+        }
+        &__client-next {
+
+        }
+
+        &__list {
+            display: block;
+
+        }
+        &__elt {
+            display: inline-block;
+            margin-top: 2em;
+            margin-right: 2em;
+            background-color: $lightenBackgroundColor;
+            border-radius: .4rem;
+        }
+        &__link {
+
+        }
+        &__img {
+            padding: 1em;
+        }
+    }
+}
