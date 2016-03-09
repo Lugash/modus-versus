@@ -7,5 +7,27 @@
  */
 
 .slider {
-    display: none;
+    .slides {
+
+        &__slide {
+            height: 500px;
+            strong {
+                display: inline-block;
+            }
+            span {
+                display: block;
+                width: 35%;
+            }
+        }
+    }
+
+    #slider-one {
+
+    }
+    #slider-two {
+        display: none;
+    }
+    #slider-three {
+        display: none;
+    }
 }
