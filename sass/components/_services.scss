@@ -54,17 +54,20 @@
         }
     }
     &__link {
-        color: $laborTextColor
+        color: $laborTextColor;
     }
     &__heading-icon-thumb {
         text-transform: uppercase;
         margin-bottom: 3em;
         font-weight: bold;
         &::before {
-            content: " \f0259";
-            top: -50px;
-            left: 80px;
-            font: $glyphs;
+            font: normal 6rem $glyphs;
+            color: $lightMainColor;
+        }
+        &:before {
+            // font awsome glyph U+f053;
+            content: "\00AB";
+            font: normal 5rem/1 $glyphs;
         }
     }
     &__heading-icon-key {
@@ -72,9 +75,11 @@
         margin-bottom: 3em;
         font-weight: bold;
         &::before {
-            content: " \f0259";
+            font: normal 6rem $glyphs;
+            color: $lightMainColor;
+            content: "";
             top: -50px;
-            left: 80px;
+            left: 60px;
             font: $glyphs;
         }
     }
@@ -83,9 +88,11 @@
         margin-bottom: 3em;
         font-weight: bold;
         &::before {
-            content: " \f0259";
+            font: normal 6rem $glyphs;
+            color: $lightMainColor;
+            content: "";
             top: -50px;
-            left: 80px;
+            left: 60px;
             font: $glyphs;
         }
     }
@@ -94,9 +101,11 @@
         margin-bottom: 3em;
         font-weight: bold;
         &::before {
-            content: " \f0259";
+            font: normal 6rem $glyphs;
+            color: $lightMainColor;
+            content: "";
             top: -50px;
-            left: 80px;
+            left: 60px;
             font: $glyphs;
         }
     }

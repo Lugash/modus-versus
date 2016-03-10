@@ -1,0 +1,39 @@
+/* Modus Versus Slicing
+ *
+ * /sass/components/_footer.secondary.scss - design for footer
+ *
+ * coded by Lugash
+ * started at 16/02/2016
+ */
+
+ .footer.aside__secondary {
+    background: darken( $headerBackgroundColor, 20 );
+    background-color: red;
+    .legals {
+        &__link {
+
+        }
+    }
+
+    .socials {
+        &__list {
+
+        }
+        &__elt {
+
+        }
+
+        &__social-facebook {
+
+        }
+        &__social-twitter {
+
+        }
+        &__social-googleplus {
+
+        }
+        &__rss-feed {
+
+        }
+    }
+ }

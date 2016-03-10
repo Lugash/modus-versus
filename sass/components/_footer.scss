@@ -8,6 +8,17 @@
 
 .footer {
     background: $headerBackgroundColor;
-    padding: 5em 10%;
+    padding: 5em 10% 0;
     color: $menuTextColor;
+    .aside {
+        &__heading {
+            position: relative;
+            font-size: 0;
+            &::before {
+                content: "";
+                background:  url( "#{ $imgPath }logo.svg" ) center left no-repeat;
+                background-size: contain;
+            }
+        }
+    }
 }

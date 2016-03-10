@@ -31,6 +31,9 @@
                 line-height: 1.5em;
                 background: rgba( $black, 0.4 );
             }
+            &--is-active {
+
+            }
         }
     }
 
@@ -48,4 +51,50 @@
         background-size: cover;
     }
 
+    .nav {
+        &__slide-button {
+            padding: 0rem 1rem 1rem;
+            border-radius: .4rem;
+            font-size: 0;
+            color: $menuTextColor;
+            text-align: center;
+            background: $focusColor;
+            &:hover {
+                background: $focusColor;
+                box-shadow: 0 .3rem 0 $darkFocusColor;
+            }
+        }
+        &__slide-previous {
+            &:before {
+                // font awsome glyph U+f053;
+                content: "\00AB";
+                font: normal 5rem/1 $glyphs;
+            }
+        }
+        &__slide-next {
+            &:before {
+                // font awsome glyph U+f053;
+                content: "\00BB";
+                font: normal 5rem/1 $glyphs;
+            }
+        }
+
+        &__dots {
+            margin: 1em auto;
+            a {
+                padding: .2rem ;
+                font-size: 0;
+                color: $menuTextColor;
+                text-align: center;
+                background: $lightMainColor;
+            }
+            a+a {
+                margin-left: 3%;
+            }
+            &--is-active {
+                // ne fonctionne pas !
+                background: black;
+            }
+        }
+    }
 }

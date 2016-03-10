@@ -7,8 +7,7 @@
  */
 
 .why {
-    padding: 4em 0;
-
+    padding: 4em 0 0;
     // HEADING
     &__heading {
         text-align: center;
@@ -24,55 +23,89 @@
             font-size: $paragraphFontSize;
         }
     }
-
     // FIGURE
     &__figure {
 
     }
     &__img {
         margin: 0 auto;
-        width: 80%;
+
 
         transform: translateY(-30em);
     }
-
     // COLS
     &__cols {
         padding: 5em 10%;
         .why-col {
-            &__heaging {
-
+            margin-right: 2em;
+            font-size: $paragraphFontSize;
+            margin-bottom: 2em;
+            &__heading {
+                font: bold 1.6em $openSansStack;
+                margin-bottom: 1em;
             }
             &__paragraph {
-
+                line-height: 1.6em;
+            }
+            &__author {
+                margin-top: 2em;
+                font-weight: bold;
             }
         }
     }
-
     // CLIENTS
     .clients {
         padding: 5em 10%;
         &__heading {
-
+            //bug!!
+            font: bold 1.7rem $openSansStack;
         }
-
         &__nav {
-
+            margin: 0 2em;
+            border-bottom: 1px solid $lightMainColor;
         }
         &__client-previous {
-
+            padding: 0.5rem 0.5rem 1rem;;
+            border-radius: .4rem;
+            font-size: 0;
+            color: $menuTextColor;
+            text-align: center;
+            background: $lightMainColor;
+            &:hover {
+                background: $focusColor;
+                box-shadow: 0 .3rem 0 $darkFocusColor;
+            }
+            &:before {
+                // font awsome glyph U+f053;
+                content: "\00AB";
+                font: normal 1rem/1 $glyphs;
+            }
         }
         &__client-next {
-
+            padding: 0.5rem 0.5rem 1rem;
+            border-radius: .4rem;
+            font-size: 0;
+            color: $menuTextColor;
+            text-align: center;
+            background: $lightMainColor;
+            &:hover {
+                background: $focusColor;
+                box-shadow: 0 .3rem 0 $darkFocusColor;
+            }
+            &:before {
+                // font awsome glyph U+f053;
+                content: "\00BB";
+                font: normal 1rem/1 $glyphs;
+            }
         }
 
         &__list {
-            display: block;
+
 
         }
         &__elt {
-            display: inline-block;
-            margin-top: 2em;
+
+            margin-top: 6em;
             margin-right: 2em;
             background-color: $lightenBackgroundColor;
             border-radius: .4rem;

@@ -18,6 +18,9 @@
                 display: block;
                 width: 35%;
             }
+            &--is-active {
+
+            }
         }
     }
 
@@ -30,4 +33,41 @@
     #slider-three {
         display: none;
     }
+
+    .nav {
+        position: relative;
+        &__slide-button {
+            position: absolute;
+            top: -280px;
+        }
+        &__slide-previous {
+            position: absolute;
+            left: 0;
+            &:before {
+
+            }
+        }
+        &__slide-next {
+            position: absolute;
+            right: 0;
+            &:before {
+
+            }
+        }
+
+        &__dots {
+            width: 20%;
+            a {
+                display: inline-block;
+                width: 30%;
+            }
+            a+a {
+
+            }
+            &--is-active {
+
+            }
+        }
+    }
+
 }
