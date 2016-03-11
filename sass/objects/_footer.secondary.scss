@@ -6,33 +6,39 @@
  * started at 16/02/2016
  */
 
- .footer.aside__secondary {
+ .footer {
+    .aside {
+        &__secondary {
+            display: inline-block;
+            width: 100%;
+            .legals {
+                
+                &__link {
 
-    .legals {
-        &__link {
+                }
+            }
 
-        }
-    }
+            .socials {
+                &__list {
+                    float: right;
+                }
+                &__elt {
+                    display: inline-block;
+                }
 
-    .socials {
-        &__list {
+                &__social-facebook {
 
-        }
-        &__elt {
+                }
+                &__social-twitter {
 
-        }
+                }
+                &__social-googleplus {
 
-        &__social-facebook {
+                }
+                &__rss-feed {
 
-        }
-        &__social-twitter {
-
-        }
-        &__social-googleplus {
-
-        }
-        &__rss-feed {
-
+                }
+            }
         }
     }
  }

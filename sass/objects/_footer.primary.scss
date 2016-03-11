@@ -7,5 +7,93 @@
  */
 
  .footer {
-     
+    .aside {
+        &__primary {
+
+            &__cols {
+                display: block;
+                .contact-infos {
+                    display: inline-block;
+                    width: 30%;
+                    height: 20rem;
+                    &__heading {
+
+                    }
+                    &__link {
+
+                    }
+                    &__paragraph {
+
+                    }
+
+                    &__contact {
+
+                    }
+                    &__term {
+
+                    }
+                    &__data {
+
+                    }
+                }
+                .col-sitemap {
+                    display: inline-block;
+                    width: 15%;
+                    height: 20rem;
+                    &__heading {
+
+                    }
+                    &__list {
+
+                    }
+                    &__elt {
+
+                    }
+                    &__link {
+
+                    }
+                }
+                .col-community {
+                    display: inline-block;
+                    width: 15%;
+                    height: 20rem;
+                    &__heading {
+
+                    }
+                    &__list {
+
+                    }
+                    &__elt {
+
+                    }
+                    &__link {
+
+                    }
+                }
+                .col-blog-articles {
+                    display: inline-block;
+                    width: 30%;
+                    height: 20rem;
+                    &__heading {
+
+                    }
+                    &__link {
+
+                    }
+                    &__list {
+
+                    }
+                    &__elt {
+
+                    }
+                    &__img {
+
+                    }
+                    &__time {
+
+                    }
+                }
+            }
+        }
+    }
  }
