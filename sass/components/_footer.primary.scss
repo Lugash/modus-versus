@@ -13,15 +13,25 @@
             &__cols {
                 font-size: 1.2em;
                 .contact-infos {
-
+                    vertical-align: top;
+                    margin: .3em;
                     &__heading {
 
                     }
                     &__link {
+                        span {
+                            font-size: 0;
+                        }
+                        span+span {
+                            color: $menuTextColor;
+                            font: bold 2rem $openSansStack;
+                        }
                         color: $menuTextColor;
+                        font: italic 2rem $openSansStack;
                     }
                     &__paragraph {
-
+                        margin: 1.5em 0;
+                        line-height: 1.5em;
                     }
 
                     &__contact {
@@ -35,40 +45,55 @@
                     }
                 }
                 .col-sitemap {
-                    text-align: center;
+                    vertical-align: top;
+                    margin: .3em;
                     &__heading {
                         font: bold 2em $openSansStack;
                         color: $laborTextColor;
+                        text-align: center;
                     }
                     &__list {
 
                     }
                     &__elt {
-
+                        padding: .4em 0 .4em 3em ;
                     }
                     &__link {
+
                         color: $menuTextColor;
+                        &:before {
+                            content: "> ";
+                        }
                     }
                 }
                 .col-community {
-                    text-align: center;
+                    vertical-align: top;
+                    margin: .3em;
                     &__heading {
                         font: bold 2em $openSansStack;
                         color: $laborTextColor;
+                        text-align: center;
                     }
                     &__list {
 
                     }
                     &__elt {
-
+                        padding: .4em 0 .4em 3em ;
                     }
                     &__link {
                         color: $menuTextColor;
+                        &:before {
+                            content: "> ";
+                        }
                     }
                 }
                 .col-blog-articles {
+                    vertical-align: top;
+                    margin: .3em;
                     &__heading {
-
+                        color: $menuTextColor;
+                        font: bold 2rem $openSansStack;
+                        margin-bottom: 1em;
                     }
                     &__link {
                         color: $menuTextColor;
@@ -77,13 +102,17 @@
 
                     }
                     &__elt {
-
+                        margin-bottom: .5em;
                     }
                     &__img {
 
                     }
+                    strong {
+                        margin-left: 1em;
+                        vertical-align: top;
+                    }
                     &__time {
-
+                        color: $laborTextColor;
                     }
                 }
             }

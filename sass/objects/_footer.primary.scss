@@ -12,10 +12,10 @@
 
             &__cols {
                 display: block;
+                height: 20em;
                 .contact-infos {
                     display: inline-block;
                     width: 30%;
-                    height: 20rem;
                     &__heading {
 
                     }
@@ -39,7 +39,6 @@
                 .col-sitemap {
                     display: inline-block;
                     width: 15%;
-                    height: 20rem;
                     &__heading {
 
                     }
@@ -56,7 +55,6 @@
                 .col-community {
                     display: inline-block;
                     width: 15%;
-                    height: 20rem;
                     &__heading {
 
                     }
@@ -73,12 +71,11 @@
                 .col-blog-articles {
                     display: inline-block;
                     width: 30%;
-                    height: 20rem;
                     &__heading {
 
                     }
                     &__link {
-
+                        position: relative;
                     }
                     &__list {
 
@@ -87,10 +84,16 @@
 
                     }
                     &__img {
+                        width: 70px;
+                        height: 70px;
+                    }
+                    strong {
 
                     }
                     &__time {
-
+                        position: absolute;
+                        bottom: 2em;;
+                        right: 0;
                     }
                 }
             }
